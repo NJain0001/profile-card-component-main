@@ -8,6 +8,14 @@ body {
     background-color: hsl(185, 75%, 39%);
     font-family: "Kumbh Sans", sans-serif;
     font-size: 18px;
+    background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+    background-position: -100% -100%, 200% 200%;
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+}
+
+hr {
+    opacity: .4;
 }
 
 .img-pattern-card {
