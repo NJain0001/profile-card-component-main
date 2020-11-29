@@ -18,13 +18,7 @@ hr {
     opacity: .4;
 }
 
-.img-pattern-card {
-    width: 20em;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.user {
+.user-card {
     width: 20em;
     height: 22.5em;
     border-radius: 20px;
@@ -72,13 +66,13 @@ hr {
 }
 
 .count {
-    padding: 1.4em;
+    padding: 1.2em;
     text-align: center;
     line-height: 20px;
 }
 
 .count strong {
-    display: block;
+    display: inline-block;
 }
 
 .attribution { 
